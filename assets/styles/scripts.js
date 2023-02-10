@@ -70,3 +70,8 @@ ScrollReveal().reveal(".text .txt", {
   origin: "left",
   interval: 200,
 });
+ScrollReveal().reveal(".barsContainer .bars", {
+  delay: 500,
+  origin: "left",
+  interval: 200,
+});

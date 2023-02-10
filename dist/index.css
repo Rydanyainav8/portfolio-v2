@@ -75,7 +75,7 @@ body {
   color: #eeeeee;
   font-weight: bold;
   font-size: 50px;
-  margin-left: 15px;
+  margin-left: 9%;
 }
 .NavBar .NavTitle span {
   color: #00fff5;
@@ -87,7 +87,7 @@ body {
   color: #eeeeee;
 }
 .NavBar .linkchild {
-  margin-right: 20px;
+  margin-right: 9%;
 }
 .NavBar .linkchild .router-link:hover {
   color: #00fff5;
