@@ -683,6 +683,10 @@ button:hover {
   color: #eeeeee;
   transition: all 0.4s;
 }
+.projectIdea .column .columnRight {
+  justify-content: center;
+  display: flex;
+}
 @media screen and (max-width: 900px) {
   .max-width {
     padding: 0;
@@ -693,6 +697,9 @@ button:hover {
   }
   .text .text2 {
     font-size: 40px;
+  }
+  .text .text3 {
+    word-spacing: normal;
   }
   #home .text {
     font-size: medium;
