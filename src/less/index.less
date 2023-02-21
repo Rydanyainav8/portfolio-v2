@@ -27,7 +27,7 @@ body {
     flex: 1;
     color: @white;
     font-weight: bold;
-    font-size: 50px;
+    font-size: max(3vw, 35px);
     margin-left: 9%;
     span {
       color: @blue;
@@ -247,10 +247,11 @@ img {
     z-index: -1;
   }
   &:after {
-    content: "About me";
+    content: "A propos de moi";
     position: absolute;
     top: 11px;
     left: 50%;
+    width: 400px;
     padding: 10px;
     font-size: 48px;
     color: @orange;
@@ -321,7 +322,7 @@ img {
     z-index: -1;
   }
   &:after {
-    content: "Released Project";
+    content: "Projet réalisés";
     position: absolute;
     top: 11px;
     left: 50%;
@@ -751,9 +752,29 @@ img {
     position: absolute;
     bottom: 10px;
   }
+
+  .titleParComp {
+    &:after {
+      font-size: 35px;
+      width: @widthTitle;
+    }
+  }
   .titleParCont {
     &:after {
       font-size: 35px;
+      width: @widthTitle;
+    }
+  }
+  .titlePar {
+    &:after {
+      font-size: 35px;
+      width: @widthTitle;
+    }
+  }
+  .titleParProj {
+    &:after {
+      font-size: 35px;
+      width: @widthTitle;
     }
   }
 }

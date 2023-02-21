@@ -74,7 +74,7 @@ body {
   flex: 1;
   color: #eeeeee;
   font-weight: bold;
-  font-size: 50px;
+  font-size: max(3vw, 35px);
   margin-left: 9%;
 }
 .NavBar .NavTitle span {
@@ -269,10 +269,11 @@ img {
   z-index: -1;
 }
 .titlePar:after {
-  content: "About me";
+  content: "A propos de moi";
   position: absolute;
   top: 11px;
   left: 50%;
+  width: 400px;
   padding: 10px;
   font-size: 48px;
   color: #fd7014;
@@ -341,7 +342,7 @@ img {
   z-index: -1;
 }
 .titleParProj:after {
-  content: "Released Project";
+  content: "Projet réalisés";
   position: absolute;
   top: 11px;
   left: 50%;
@@ -712,7 +713,20 @@ img {
     position: absolute;
     bottom: 10px;
   }
+  .titleParComp:after {
+    font-size: 35px;
+    width: 260px;
+  }
   .titleParCont:after {
     font-size: 35px;
+    width: 260px;
+  }
+  .titlePar:after {
+    font-size: 35px;
+    width: 260px;
+  }
+  .titleParProj:after {
+    font-size: 35px;
+    width: 260px;
   }
 }
