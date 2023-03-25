@@ -12,13 +12,16 @@ $(document).ready(function () {
 });
 
 //MENU-HAMBURGER
-const menuHamburger = document.querySelector(".menu-hamburger");
+const menuHamburger = document.querySelector(".fa-bars-staggered");
 const linkchild = document.querySelector(".linkchild");
 
 menuHamburger.addEventListener("click", () => {
   linkchild.classList.toggle("mobile-menu");
 });
-
+$('.menu-btn').click(function () {
+  $('.navbar .menu').toggleClass("active");
+  $('.menu-btn i').toggleClass("active");
+});
 //DARK-TOGGLE
 const checkbox = document.getElementById("checkbox");
 checkbox.addEventListener("change", () => {

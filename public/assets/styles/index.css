@@ -76,6 +76,7 @@ body {
   font-weight: bold;
   font-size: max(3vw, 35px);
   margin-left: 9%;
+  z-index: 2;
 }
 .NavBar .NavTitle span {
   color: #00fff5;
@@ -159,7 +160,7 @@ body {
   transition: all 0.5s linear;
 }
 .containerHome {
-  background: url("../assets/img/webback.jpg");
+  background: url("/assets/img/webback.jpg");
   background-size: cover;
   height: 100vh;
   background-attachment: fixed;
@@ -277,7 +278,7 @@ img {
   padding: 10px;
   font-size: 48px;
   color: #fd7014;
-  background: #eeeeee;
+  background: none;
   transform: translateX(-50%);
   z-index: 2;
   transform: 0.5s linear;
@@ -385,7 +386,7 @@ img {
   padding: 10px;
   font-size: 48px;
   color: #fd7014;
-  background: #eeeeee;
+  background: none;
   transform: translateX(-50%);
   z-index: 2;
   transform: 0.5s linear;
@@ -406,7 +407,7 @@ img {
 .titleParIdea:before {
   content: "";
   position: absolute;
-  background: #222831;
+  background: none;
   bottom: 0px;
   left: 50%;
   height: 5px;
@@ -442,7 +443,7 @@ img {
 .dark .titleParCont:after,
 .dark .titleParIdea:after {
   color: #eeeeee;
-  background: #222831;
+  background: transparent;
   transition: background 0.5s linear;
 }
 .column .columnLeft p {
@@ -573,6 +574,8 @@ img {
 }
 .card i {
   font-size: 100px;
+  margin: 5px;
+  color: rgb(26 26 26);
 }
 .max-width {
   max-width: 1470px;
@@ -626,11 +629,12 @@ img {
   width: 100%;
   text-align: center;
 }
-.NavBar .fa-bars {
+.NavBar .fa-bars-staggered {
   display: none;
   color: #eeeeee;
   font-size: 35px;
 }
+
 form {
   border-radius: 5px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -687,13 +691,21 @@ button:hover {
   justify-content: center;
   display: flex;
 }
+.dark .card i{
+  color: #eeeeee;
+}
+.dark input, .dark textarea{
+  color: #eeeeee
+}
 @media screen and (max-width: 900px) {
   .max-width {
     padding: 0;
   }
   .text {
-    position: absolute;
-    left: 40%;
+    font-size: medium;
+    width: 100%;
+    left: 50%;
+    padding: 40px;
   }
   .text .text2 {
     font-size: 40px;
@@ -710,7 +722,7 @@ button:hover {
   .NavBar {
     padding: 10px 0 10px 0;
   }
-  .NavBar .fa-bars {
+  .NavBar .fa-bars-staggered {
     z-index: 4;
     display: block;
     margin-right: 20px;
@@ -747,15 +759,23 @@ button:hover {
   }
   .linkchild.mobile-menu {
     margin-left: 0;
+    z-index: 1;
   }
   .dark .NavBar a {
     color: #eeeeee;
   }
-  .dark .NavBar .fa-bars {
+  .dark .NavBar .fa-bars-staggered {
     color: #eeeeee;
   }
   .dark .NavBar .linkchild {
     background-color: rgba(39, 39, 39, 0.8);
+  }
+  .NavBar .menu-btn i.active::before{
+    content: "\f00d";
+    color: #eeeeee;
+  }
+  .menu-btn{
+    z-index: 2;
   }
   .About img,
   .Skills img,
