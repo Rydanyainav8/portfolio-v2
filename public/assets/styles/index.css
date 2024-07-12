@@ -1,61 +1,6 @@
-@font-face {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrFJA.ttf)
-    format("truetype");
-}
-@font-face {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9V1s.ttf)
-    format("truetype");
-}
-@font-face {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6V1s.ttf)
-    format("truetype");
-}
-@font-face {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLCz7V1s.ttf)
-    format("truetype");
-}
-@font-face {
-  font-family: "Ubuntu";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/ubuntu/v20/4iCs6KVjbNBYlgo6eA.ttf)
-    format("truetype");
-}
-@font-face {
-  font-family: "Ubuntu";
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/ubuntu/v20/4iCv6KVjbNBYlgoCjC3Ttw.ttf)
-    format("truetype");
-}
-@font-face {
-  font-family: "Ubuntu";
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/ubuntu/v20/4iCv6KVjbNBYlgoCxCvTtw.ttf)
-    format("truetype");
-}
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@300..1000&display=swap');
 * {
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Recursive", sans-serif;
   margin: 0;
   padding: 0;
   text-decoration: none;
@@ -95,6 +40,11 @@ body {
 }
 .NavBar a {
   color: #eeeeee;
+  font-size: large;
+}
+.columnLeft p, 
+.descri{
+  font-size: initial;
 }
 .NavBar .linkchild {
   margin-right: 9%;
@@ -108,7 +58,7 @@ body {
   padding: 20px 20px;
 }
 .NavBar .linkchild ul li {
-  margin: 0 30px;
+  margin: 0 25px;
 }
 .checkbox:checked + .label .ball {
   transform: translateX(24px);
@@ -222,7 +172,7 @@ body {
 }
 img {
   width: 380px;
-  height: 444px;
+  /* height: 444px; */
   border-radius: 50%;
   filter: drop-shadow(2px 4px 8px #585858);
 }
@@ -402,7 +352,7 @@ img {
   content: "80%";
 }
 .progressLine.js span::after {
-  content: "40%";
+  content: "50%";
 }
 .progressLine.php span::after {
   content: "70%";
@@ -411,13 +361,16 @@ img {
   content: "50%";
 }
 .progressLine.git span::after {
-  content: "56%";
+  content: "80%";
+}
+.progressLine.c span::after {
+  content: "65%";
 }
 .progressLine.html span {
   width: 80%;
 }
 .progressLine.js span {
-  width: 40%;
+  width: 50%;
 }
 .progressLine.php span {
   width: 70%;
@@ -426,7 +379,10 @@ img {
   width: 50%;
 }
 .progressLine.git span {
-  width: 56%;
+  width: 80%;
+}
+.progressLine.c span {
+  width: 65%;
 }
 .dark .progressLine {
   background: none;
@@ -511,6 +467,7 @@ img {
 .icons .row .sub-title {
   font-weight: 600;
   color: #323232;
+  font-size: large;
 }
 .column .icons {
   width: 100%;
@@ -660,10 +617,15 @@ circle {
 #backend circle {
   animation: anim2 2s linear forwards;
 }
-svg {
+.ratio svg {
   position: absolute;
   top: 0;
   left: 0;
+}
+i img{
+  width: 50px;
+  height: 50px;
+  filter: none;
 }
 .ratio > p {
   font-weight: 600;
@@ -765,7 +727,11 @@ svg {
   .Skills img,
   #RelProject img {
     width: 280px;
-    height: 300px;
+    /* height: 300px; */
+  }
+  .barsContent img{
+    width: 50px;
+    height: 50px;
   }
   .About .column,
   .Skills .column,
@@ -823,6 +789,7 @@ svg {
   .progressLine.js span::after,
   .progressLine.php span::after,
   .progressLine.mysql span::after,
+  .progressLine.c span::after,
   .progressLine.git span::after {
     content: none;
   }
@@ -927,7 +894,6 @@ li label {
   color: #d6dee1;
 }
 #lang {
-  position: relative;
   cursor: pointer;
 }
 #langOption{

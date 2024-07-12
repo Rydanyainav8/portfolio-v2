@@ -99,9 +99,9 @@ lang_eng = document
     document.querySelector(".router-link4").innerText = "Contact";
     document.querySelector(".text1").innerHTML = "Wellcome, I'm";
     document.querySelector(".text3").innerHTML =
-      "Informatic student at Ecole Supérieur des Technologie de l'information";
+      "Passionate web developer with 4 years of experience creating high-performance websites and applications";
     document.querySelector(".descri").innerHTML =
-      'My name is Rakotondravao Andriniaina, I am 22 years old. Being technology and electronic gadgets since I was a child, I started to code when I was 18. In a computer, I am interested in everything, whether it\'s hardware or software. It\'s in Euro Truck Simulator that my passion took off to know a little more about the world of codes and developpement. With this game I started to initiate myself in 3D modeling and graphic tools by building mods on the game. This experience led me today to application developpement. I deepened my knwoledge at <a href="https://esti.mg/" id="link">Ecole supérieur des Technologies de l’information </a> in 2019 and I am currently studying for a licence III in the Integration and development branch.';
+      'My name is Rakotondravao Andriniaina, I am 23 years old. Being technology and electronic gadgets since I was a child, I started to code when I was 18. In a computer, I am interested in everything, whether it\'s hardware or software. It\'s in Euro Truck Simulator that my passion took off to know a little more about the world of codes and developpement. With this game I started to initiate myself in 3D modeling and graphic tools by building mods on the game. This experience led me today to application developpement. I deepened my knwoledge at <a href="https://esti.mg/" id="link">Ecole supérieur des Technologies de l’information </a> in 2019 and I am currently studying for a licence III in the Integration and development branch.';
     document.querySelector(".boutn a").innerHTML = "Want my resume ?";
     document.querySelector(".titlePar").innerText = "About me";
     document.querySelector(".titleParComp").innerText = "What I can";
@@ -131,9 +131,9 @@ if (document.querySelector(".text1").innerHTML == "") {
   document.querySelector(".router-link4").innerText = "Contact";
   document.querySelector(".text1").innerHTML = "Bonjour, je suis";
   document.querySelector(".text3").innerHTML =
-    "Etudiant en informatique à l'Ecole Supérieur des Technologies de l'information";
+    "Développeur web passionné avec 4 années d'expérience dans la création de sites web et d'applications performants.";
   document.querySelector(".descri").innerHTML =
-    "Mon nom est Rakotondravao Andriniaina, j'ai 22 ans. En étant passionné de technologie et des gadgets électronique depuis petit, j’ai commencé à coder à mes 18 ans. Dans un ordinateur, je suis intéressé par tout que ce soit en hardware ou en software. C'est dans Euro Truck Simulator que ma passion à pris d'avantage de connaître un peu plus sur l'univers des codes et du développement. Avec ce jeu j'ai commencé à m'initier dans la modélisation 3D et les outils graphiques en construisant des mods sur le jeu. Cette expérience m'a amené aujourd'hui au développement d'application. J’ai approfondi mes connaissances à l'<a href=\"https://esti.mg/\" id=\"link\">Ecole supérieur des Technologies de l’information </a> en 2019 et j’y suis actuellement en Licence III dans la branche Intégration et développement.";
+    "Mon nom est Rakotondravao Andriniaina, j'ai 23 ans. En étant passionné de technologie et des gadgets électronique depuis petit, j’ai commencé à coder à mes 18 ans. Dans un ordinateur, je suis intéressé par tout que ce soit en hardware ou en software. C'est dans Euro Truck Simulator que ma passion à pris d'avantage de connaître un peu plus sur l'univers des codes et du développement. Avec ce jeu j'ai commencé à m'initier dans la modélisation 3D et les outils graphiques en construisant des mods sur le jeu. Cette expérience m'a amené aujourd'hui au développement d'application. J’ai approfondi mes connaissances à l'<a href=\"https://esti.mg/\" id=\"link\">Ecole supérieur des Technologies de l’information </a> en 2019 et j’y suis actuellement en Licence III dans la branche Intégration et développement.";
   document.querySelector(".boutn a").innerHTML = "Tu veux mon CV ?";
   document.querySelector(".titlePar").innerText = "A propos de moi";
   document.querySelector(".titleParComp").innerText = "Ce que je peux";
