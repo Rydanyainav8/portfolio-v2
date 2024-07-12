@@ -8,7 +8,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
       rel="stylesheet"
       />
-    <link rel="stylesheet" type="text/css" href="assets/styles/index.css" />
+    <link rel="stylesheet" type="text/css" href="assets/styles/index.css">
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"
       integrity="sha512-Kr+RPfLjQ71E0cJ9nseJ6jwTrnmMnuSPnnsVQQ/ZYYCjOHKfJcWj8ILICXnvf9A7ZQChNzIbr9x/ZAxA6xAZlQ=="
@@ -38,10 +38,10 @@
       <div class="link">
         <div class="linkchild">
           <ul>
-            <li><a href="#home" class="router-link">Accueil</a></li>
-            <li><a href="#about" class="router-link">A propos</a></li>
-            <li><a href="#skills" class="router-link">Compétences</a></li>
-            <li><a href="#contact" class="router-link">Contact</a></li>
+            <li><a href="#home" class="router-link1"></a></li>
+            <li><a href="#about" class="router-link2"></a></li>
+            <li><a href="#skills" class="router-link3"></a></li>
+            <li><a href="#contact" class="router-link4"></a></li>
             <li>
               <div class="togglebtn">
                 <input type="checkbox" class="checkbox" id="checkbox" />
@@ -52,27 +52,43 @@
                 </label>
               </div>
             </li>
+            <li id="langOption">
+              <div id="lang">
+                <svg width="25" height="25" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M5 15v2a2 2 0 0 0 1.85 1.995L7 19h3v2H7a4 4 0 0 1-4-4v-2h2Zm13-5 4.4 11h-2.155l-1.201-3h-4.09l-1.199 3h-2.154L16 10h2Zm-1 2.885L15.753 16h2.492L17 12.885ZM8 2v2h4v7H8v3H6v-3H2V4h4V2h2Zm9 1a4 4 0 0 1 4 4v2h-2V7a2 2 0 0 0-2-2h-3V3h3ZM6 6H4v3h2V6Zm4 0H8v3h2V6Z"></path>
+                </svg>
+              </div>
+              <div class="down_option">
+                <div class="option">
+                  <input type="radio" id="french" name="lang_option">
+                  <label for="french">Français</label>
+                </div>
+                <div class="ligne"></div>
+                <div class="option">
+                  <input type="radio" id="eng" name="lang_option">
+                  <label for="eng">Anglais</label>
+                </div>
+              </div>
+            </li>
           </ul>
         </div>
       </div>
       <div class="menu-btn">
-        <i class="fa-solid fa-bars-staggered"></i>
-        
+        <i class="fa-solid fa-bars"></i>
       </div>
     </div>
+
     <section class="Home" id="home">
       <div class="containerHome">
         <div class="text">
-          <div class="text1 txt">Bonjour, je suis</div>
+          <div class="text1 txt"></div>
           <div class="text2 txt">Andry</div>
           <div class="text3 txt">
-            Etudiant en informatique à l'Ecole Supérieur des Technologies de
-            l'information
+
           </div>
         </div>
         <div class="boutn">
-          <a href="/assets/img/CvAndry.pdf" class="btn">Tu veux mon CV ?</a>
-
+          <a href="/assets/img/CvAndry.pdf" class="btn"></a>
         </div>
       </div>
     </section>
@@ -89,16 +105,6 @@
               <div class="columnRight">
                 <div class="titlePar"></div>
                 <p class="descri">
-                  Mon nom est Rakotondravao Andriniaina, j'ai 22 ans. En étant
-                  passionné de technologie et des gadgets électronique depuis
-                  petit,
-                  j’ai commencé à coder à mes 18 ans. Dans un ordinateur, je suis
-                  intéressé par tout que ce soit en hardware ou en software. C'est dans Euro Truck Simulator que ma passion à pris d'avantage de connaître un peu plus sur l'univers des codes et du développement. Avec ce jeu j'ai commencé à m'initier dans la modélisation 3D et les outils graphiques ce qui me mène aujourd'hui au développement d'application.
-                  J’ai approfondi mes connaissances à l'<a
-                    href="https://esti.mg/" id="link">Ecole supérieur des
-                    Technologies de l’information </a>
-                  en 2019 et j’y suis actuellement en Licence III dans la
-                  branche Intégration et développement.
                 </p>
               </div>
             </div>
@@ -107,184 +113,258 @@
       </div>
     </section>
     <section class="Skills max-width" id="skills">
-      <div class="titleParComp"></div>
+      <div class="titleParComp">Ce que je peux</div>
       <div class="column">
         <div class="columnLeft">
           <p class="lorem">
-            Depuis 2018, j’ai débuté à coder avec le langage C. Quand j’ai
-            commencé à étudier à l’ESTI, on a commencé avec Python sur laquelle
-            j’ai fait un mini-jeu en étant encore débutant dans le langage. Avec
-            Python, je connais quelque Framework comme Django, Flask, Socket.IO.
-            J’ai utilisé ces Framework dans divers projets comme un Tchat en
-            temps
-            réel, gestion de paiement. Vous pouvez aussi voir mes autres
-            compétences en développement Web.
           </p>
-        </div>
-        <div class="columnRight">
-          <div class="barsContainer">
-            <div class="bars">
-              <div class="info">
-                <div class="sp">
-                  <span>HTML & CSS</span>
-                </div>
-                <div class="progressLine html">
-                  <span></span>
-                </div>
-              </div>
-            </div>
-            <div class="bars">
-              <div class="info">
-                <div class="sp">
-                  <span>Javascript</span>
-                  <p>[ReactJS, VueJS]</p>
-                </div>
-                <div class="progressLine js">
-                  <span></span>
-                </div>
-              </div>
-            </div>
-            <div class="bars">
-              <div class="info">
-                <div class="sp">
-                  <span>PHP [Symfony]</span>
-                </div>
-                <div class="progressLine php">
-                  <span></span>
-                </div>
-              </div>
-            </div>
-            <div class="bars">
-              <div class="info">
-                <div class="sp">
-                  <span>Base de donnée [MySql]</span>
-                </div>
-                <div class="progressLine mysql">
-                  <span></span>
-                </div>
-              </div>
-            </div>
-            <div class="bars">
-              <div class="info">
-                <div class="sp">
-                  <span>Git & Github</span>
-                </div>
-                <div class="progressLine git">
-                  <span></span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+          <div class="stacktitle"></div>
+          <div class="stack_ratio">
+            <div class="ratio">
+              <p>FRONTEND</p>
+              <div class="circle-wrap">
+                <div class="ratio-skill">
+                  <div class="outer">
+                    <div class="inner">
+                      <div id="number1"></div>
+                      <div id="frontend">
+                        <svg xmlns="https://www.w3.org/2000/svg" version="1.1"
+                          width="160px" height="160px">
+                          <defs>
+                            <linearGradient id="GradientColor">
+                              <stop offset="0%" stop-color="#DA22FF" />
+                                <stop offset="100%" stop-color="#9733EE">
+                                </linearGradient>
+                              </defs>
+                              <circle cx="80" cy="80" r="70"
+                                stroke-linecap="round" />
+                              </svg>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ratio">
+                    <p>BACKEND</p>
+                    <div class="circle-wrap">
+                      <div class="ratio-skill">
+                        <div class="outer">
+                          <div class="inner">
+                            <div id="number2"></div>
+                            <div id="backend">
+                              <svg xmlns="https://www.w3.org/2000/svg"
+                                version="1.1" width="160px" height="160px">
+                                <defs>
+                                  <linearGradient id="GradientColor">
+                                    <stop offset="0%" stop-color="#DA22FF" />
+                                      <stop offset="100%" stop-color="#9733EE">
+                                      </linearGradient>
+                                    </defs>
+                                    <circle cx="80" cy="80" r="70"
+                                      stroke-linecap="round" />
+                                    </svg>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="columnRight">
+                      <div class="barsContainer">
+                        <div class="bars">
+                          <div class="barsContent">
+                            <i class="fa-brands fa-html5"></i>
+                            <div class="info">
+                              <div class="sp">
+                                <span>HTML & CSS</span>
+                              </div>
+                              <div class="progressLine html">
+                                <span></span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="barsContainer">
+                        <div class="bars">
+                          <div class="barsContent">
+                            <i class="fa-brands fa-js"></i>
+                            <div class="info">
+                              <div class="sp">
+                                <span>Javascript</span>
+                                <p>[ReactJS, VueJS]</p>
+                              </div>
+                              <div class="progressLine js">
+                                <span></span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="barsContainer">
+                        <div class="bars">
+                          <div class="barsContent">
+                            <i class="fa-brands fa-symfony"></i>
+                            <div class="info">
+                              <div class="sp">
+                                <span>PHP [Symfony]</span>
+                              </div>
+                              <div class="progressLine php">
+                                <span></span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="barsContainer">
+                        <div class="bars">
+                          <div class="barsContent">
+                            <i class="fa-solid fa-database"></i>
+                            <div class="info">
+                              <div class="sp">
+                                <span class="bdd"></span>
+                              </div>
+                              <div class="progressLine mysql">
+                                <span></span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="barsContainer">
+                        <div class="bars">
+                          <div class="barsContent">
+                            <i class="fa-brands fa-github"></i>
+                            <div class="info">
+                              <div class="sp">
+                                <span>Git & Github</span>
+                              </div>
+                              <div class="progressLine git">
+                                <span></span>
+                              </div>
+                            </div>
+                          </div>
+                        </div></div>
+                    </div>
+                  </div>
 
-      <section id="RelProject">
-        <div class="max-width">
-          <div class="titleParProj"></div>
-          <div class="carousel">
-            <div class="owl-carousel">
-              <div class="card">
-                <h2 class="title">Gestion de paiment</h2>
-                <div class="tech">Django</div>
-                <i class="fa-brands fa-python"></i>
-              </div>
-              <div class="card">
-                <h2 class="title">Gestion de vente matériel tv</h2>
-                <div class="tech">Symfony</div>
-                <i class="fa-brands fa-symfony"></i>
-              </div>
-              <div class="card">
-                <h2 class="title">Plateforme de discussion</h2>
-                <div class="tech">Php</div>
-                <i class="fa-brands fa-php"></i>
-              </div>
-              <div class="card">
-                <h2 class="title">Gestion de ticket</h2>
-                <div class="tech">Symfony</div>
-                <i class="fa-brands fa-symfony"></i>
-              </div>
-              <div class="card">
-                <h2 class="title">Gestion d'absence d'une école</h2>
-                <div class="tech">Symfony, ChartJS</div>
-                <i class="fa-brands fa-symfony"></i>
-              </div>              
-              <div class="card">
-                <h2 class="title">Site de réservation de cours</h2>
-                <div class="tech">Symfony, Stripe</div>
-                <i class="fa-brands fa-symfony"></i>
-                <i class="fa-brands fa-stripe"></i>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="projectIdea">
-        <div class="titleParIdea"></div>
-        <div class="column">
-          <div class="columnLeft">
-            <form action="https://formspree.io/f/mayzobnn" method="POST">
-              <label>
-                Votre email:
-                <input type="email" name="email" placeholder="email">
-              </label>
-              <label>
-                Message:
-                <textarea name="message" placeholder="message..."></textarea>
-              </label>
-              <!-- your other form fields go here -->
-              <center><button type="submit">Envoyer</button></center>
-            </form>
-          </div>
-          <div class="columnRight">
-            <div class="contact-content">
-              <div class="column left max-width2">
-                <div class="icons">
-                  <div class="row">
-                    <i class="fab fa-facebook"></i>
-                    <div class="info">
-                      <div class="sub-title">Andry Nyaina</div>
+                  <section id="RelProject">
+                    <div class="max-width">
+                      <div class="titleParProj"></div>
+                      <div class="carousel">
+                        <div class="owl-carousel">
+                          <div class="card">
+                            <h2 class="title" id="paiement"></h2>
+                            <div class="tech">Django</div>
+                            <i class="fa-brands fa-python"></i>
+                          </div>
+                          <div class="card">
+                            <h2 class="title" id="vente"></h2>
+                            <div class="tech">Symfony</div>
+                            <i class="fa-brands fa-symfony"></i>
+                          </div>
+                          <div class="card">
+                            <h2 class="title" id="discu"></h2>
+                            <div class="tech">Php</div>
+                            <i class="fa-brands fa-php"></i>
+                          </div>
+                          <div class="card">
+                            <h2 class="title" id="ticket"></h2>
+                            <div class="tech">Symfony</div>
+                            <i class="fa-brands fa-symfony"></i>
+                          </div>
+                          <div class="card">
+                            <h2 class="title" id="ecole"></h2>
+                            <div class="tech">Symfony, ChartJS</div>
+                            <i class="fa-brands fa-symfony"></i>
+                          </div>
+                          <div class="card">
+                            <h2 class="title" id="cours"></h2>
+                            <div class="tech">Symfony, Stripe</div>
+                            <i class="fa-brands fa-symfony"></i>
+                            <i class="fa-brands fa-stripe"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                </section>
+                <section class="projectIdea" id="contact">
+                  <div class="max-width bottom">
+                    <div class="titleParIdea"></div>
+                    <div class="column">
+                      <div class="columnLeft">
+                        <form action="https://formspree.io/f/mayzobnn"
+                          method="POST">
+                          <label for="email" id="label_email">
+                          </label>
+                          <input type="email" name="email" placeholder="email"
+                            id="email"
+                            required>
+                          <label for="message" id="label_message">
+                          </label>
+                          <textarea name="message" placeholder="message..."
+                            id="message"
+                            required></textarea>
+                          <!-- your other form fields go here -->
+                          <center><button type="submit" id="btnSend"></button></center>
+                        </form>
+                      </div>
+                      <div class="columnRight">
+                        <div class="contact-content">
+                          <div class="column left max-width2">
+                            <div class="icons">
+                              <div class="row">
+                                <i class="fab fa-facebook fb"></i>
+                                <div class="info">
+                                  <div class="sub-title exp">Andry Nyaina</div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <i class="fas fa-envelope"></i>
+                                <div class="info">
+                                  <div class="sub-title">Rydanyaina@gmail.com</div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <i class="fas fa-phone"></i>
+                                <div class="info">
+                                  <div class="sub-title">034 64 914 04</div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                                <div class="info">
+                                  <div class="sub-title">Andriniaina
+                                    RAKOTONDRAVAO</div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <i class="fa-brands fa-github"></i>
+                                <div class="info">
+                                  <div class="sub-title">Rydanyainav8</div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
-                  <div class="row">
-                    <i class="fas fa-envelope"></i>
-                    <div class="info">
-                      <div class="sub-title">Rydanyaina@gmail.com</div>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <i class="fas fa-phone"></i>
-                    <div class="info">
-                      <div class="sub-title">034 64 914 04</div>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <i class="fa-brands fa-linkedin-in"></i>
-                    <div class="info">
-                      <div class="sub-title">Andriniaina RAKOTONDRAVAO</div>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <i class="fa-brands fa-github"></i>
-                    <div class="info">
-                      <div class="sub-title">Rydanyainav8</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <script
-        src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
-        integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
-        crossorigin="anonymous"
-        referrerpolicy="no-referrer"></script>
-      <script
-        src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"
-        integrity="sha512-9CWGXFSJ+/X0LWzSRCZFsOPhSfm6jbnL+Mpqo0o8Ke2SYr8rCTqb4/wGm+9n13HtDE1NQpAEOrMecDZw4FXQGg=="
-        crossorigin="anonymous"
-        referrerpolicy="no-referrer"></script>
-      <script src="./assets/styles/scripts.js"></script>
-    </body>
-  </html>
+                </section>
+                <script
+                  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+                  integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+                  crossorigin="anonymous"
+                  referrerpolicy="no-referrer"></script>
+                <script
+                  src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"
+                  integrity="sha512-9CWGXFSJ+/X0LWzSRCZFsOPhSfm6jbnL+Mpqo0o8Ke2SYr8rCTqb4/wGm+9n13HtDE1NQpAEOrMecDZw4FXQGg=="
+                  crossorigin="anonymous"
+                  referrerpolicy="no-referrer"></script>
+                <script src="./assets/styles/scripts.js"></script>
+              </body>
+            </html>
