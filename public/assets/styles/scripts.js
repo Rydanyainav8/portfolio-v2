@@ -99,9 +99,9 @@ lang_eng = document
     document.querySelector(".router-link4").innerText = "Contact";
     document.querySelector(".text1").innerHTML = "Wellcome, I'm";
     document.querySelector(".text3").innerHTML =
-      "Passionate web developer with 4 years of experience creating high-performance websites and applications";
+      "Passionate web developer with 5 years of experience creating high-performance websites and applications";
     document.querySelector(".descri").innerHTML =
-      'My name is Rakotondravao Andriniaina, I am 23 years old. Being technology and electronic gadgets since I was a child, I started to code when I was 18. In a computer, I am interested in everything, whether it\'s hardware or software. It\'s in Euro Truck Simulator that my passion took off to know a little more about the world of codes and developpement. With this game I started to initiate myself in 3D modeling and graphic tools by building mods on the game. This experience led me today to application developpement. I deepened my knwoledge at <a href="https://esti.mg/" id="link">Ecole supérieur des Technologies de l’information </a> in 2019 and where and where I obtained my Bachelor\'s degree.';
+      'My name is Rakotondravao Andriniaina, I\'m 26 years old. Being technology and electronic gadgets since I was a child, I started to code when I was 18. In a computer, I am interested in everything, whether it\'s hardware or software. It\'s in Euro Truck Simulator that my passion took off to know a little more about the world of codes and developpement. With this game I started to initiate myself in 3D modeling and graphic tools by building mods on the game. This experience led me today to application developpement. I deepened my knwoledge at <a href="https://esti.mg/" id="link">Ecole supérieur des Technologies de l’information </a> in 2019 and where and where I obtained my Bachelor\'s degree.';
     document.querySelector(".boutn a").innerHTML = "Want my resume ?";
     document.querySelector(".titlePar").innerText = "About me";
     document.querySelector(".titleParComp").innerText = "What I can";
@@ -111,6 +111,7 @@ lang_eng = document
       "Since 2018, I started coding with the C language, When I started studying at ESTI, we started with Python on which I did a mini-game while still a beginner in the language. With Python, I know some frameworks like Django, Flask, Socket.IO. I used these frameworks in constious projects like a realtime chat app, payment management, You can also see my other web developpement skills.";
     document.querySelector(".stacktitle").innerHTML = "Stack Skills";
     document.querySelector(".bdd").innerHTML = "Database[MySql]";
+  document.getElementById("RecruiteProcess").innerText = "Recruitment Manager";
     document.getElementById("paiement").innerText = "Payment management";
     document.getElementById("vente").innerText =
       "Sales management for TV equipment";
@@ -131,9 +132,9 @@ if (document.querySelector(".text1").innerHTML == "") {
   document.querySelector(".router-link4").innerText = "Contact";
   document.querySelector(".text1").innerHTML = "Bonjour, je suis";
   document.querySelector(".text3").innerHTML =
-    "Développeur web passionné avec 4 années d'expérience dans la création de sites web et d'applications performants.";
+    "Développeur web passionné avec 5 années d'expérience dans la création de sites web et d'applications performants.";
   document.querySelector(".descri").innerHTML =
-    "Mon nom est Rakotondravao Andriniaina, j'ai 23 ans. En étant passionné de technologie et des gadgets électronique depuis petit, j’ai commencé à coder à mes 18 ans. Dans un ordinateur, je suis intéressé par tout que ce soit en hardware ou en software. C'est dans Euro Truck Simulator que ma passion à pris d'avantage de connaître un peu plus sur l'univers des codes et du développement. Avec ce jeu j'ai commencé à m'initier dans la modélisation 3D et les outils graphiques en construisant des mods sur le jeu. Cette expérience m'a amené aujourd'hui au développement d'application. J’ai approfondi mes connaissances à l'<a href=\"https://esti.mg/\" id=\"link\">Ecole supérieur des Technologies de l’information </a> en 2019 et où j'ai passé mon diplôme de Licence.";
+    "Mon nom est Rakotondravao Andriniaina, j'ai 25 ans. En étant passionné de technologie et des gadgets électronique depuis petit, j’ai commencé à coder à mes 18 ans. Dans un ordinateur, je suis intéressé par tout que ce soit en hardware ou en software. C'est dans Euro Truck Simulator que ma passion à pris d'avantage de connaître un peu plus sur l'univers des codes et du développement. Avec ce jeu j'ai commencé à m'initier dans la modélisation 3D et les outils graphiques en construisant des mods sur le jeu. Cette expérience m'a amené aujourd'hui au développement d'application. J’ai approfondi mes connaissances à l'<a href=\"https://esti.mg/\" id=\"link\">Ecole supérieur des Technologies de l’information </a> en 2019 et où j'ai passé mon diplôme de Licence.";
   document.querySelector(".boutn a").innerHTML = "Tu veux mon CV ?";
   document.querySelector(".titlePar").innerText = "A propos de moi";
   document.querySelector(".titleParComp").innerText = "Ce que je peux";
@@ -143,6 +144,7 @@ if (document.querySelector(".text1").innerHTML == "") {
     "Depuis 2018, j’ai débuté à coder avec le langage C. Quand j’ai commencé à étudier à l’ESTI, on a commencé avec Python sur laquelle j’ai fait un mini-jeu en étant encore débutant dans le langage. Avec Python, je connais quelque Framework comme Django, Flask, Socket.IO; j’ai utilisé ces Framework dans divers projets comme un Tchat en temps réel, gestion de paiement. Vous pouvez aussi voir mes autres compétences en développement Web.";
   document.querySelector(".bdd").innerHTML = "Base de donnée [MySql]";
   document.querySelector(".stacktitle").innerHTML = "Compétence stack";
+  document.getElementById("RecruiteProcess").innerText = "Gestionnaire de recrutement"
   document.getElementById("paiement").innerText = "Gestionnaire de paiemenent"
   document.getElementById(
     "vente"
@@ -171,6 +173,7 @@ document.getElementById("french").addEventListener("click", function () {
   document.querySelector(".lorem").innerHTML ="Depuis 2018, j’ai débuté à coder avec le langage C. Quand j’ai commencé à étudier à l’ESTI, on a commencé avec Python sur laquelle j’ai fait un mini-jeu en étant encore débutant dans le langage. Avec Python, je connais quelque Framework comme Django, Flask, Socket.IO. J’ai utilisé ces Framework dans divers projets comme un Tchat en temps réel, gestion de paiement. Vous pouvez aussi voir mes autres compétences en développement Web.";
   document.querySelector(".bdd").innerHTML = "Base de donnée [MySql]";
   document.querySelector(".stacktitle").innerHTML = "Compétence stack";
+  document.getElementById("RecruiteProcess").innerText = "Gestionnaire de recrutement"
   document.getElementById("paiement").innerText = "Gestionnaire de paiement"
   document.getElementById("vente").innerText = "Gestion de vente matériel tv";
   document.getElementById("discu").innerText = "Plateforme de discussion";
