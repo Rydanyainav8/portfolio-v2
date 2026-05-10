@@ -189,7 +189,7 @@ img {
 } */
 .column {
   display: flex;
-  margin: 50px 0 0 0;
+  /* margin: 50px 0 0 0; */
   position: relative;
   gap: 50px;
 }
@@ -353,16 +353,16 @@ img {
   }
 }
 .progressLine.html span::after {
-  content: "80%";
+  content: "90%";
 }
 .progressLine.js span::after {
-  content: "50%";
+  content: "80%";
 }
 .progressLine.php span::after {
   content: "70%";
 }
 .progressLine.mysql span::after {
-  content: "50%";
+  content: "60%";
 }
 .progressLine.git span::after {
   content: "80%";
@@ -371,16 +371,16 @@ img {
   content: "65%";
 }
 .progressLine.html span {
-  width: 80%;
+  width: 90%;
 }
 .progressLine.js span {
-  width: 50%;
+  width: 80%;
 }
 .progressLine.php span {
   width: 70%;
 }
 .progressLine.mysql span {
-  width: 50%;
+  width: 60%;
 }
 .progressLine.git span {
   width: 80%;
@@ -401,9 +401,9 @@ img {
     0px 1px rgba(255, 255, 255, 0.8);
   transition: background 0.5s linear;
 }
-.carousel {
+/* .carousel {
   padding: 90px 0 90px 0;
-}
+} */
 .card:hover {
   transform: scale(1.08);
   transition: all 0.5s;
