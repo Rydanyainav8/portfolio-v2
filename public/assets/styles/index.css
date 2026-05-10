@@ -992,3 +992,6 @@ li label {
   background-image: url("dark-layered-waves-haikei.svg");
   transition: background 0.5s linear;
 }
+#about{
+  margin-top: 32px;
+}

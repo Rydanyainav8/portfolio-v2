@@ -132,7 +132,7 @@ if (document.querySelector(".text1").innerHTML == "") {
   document.querySelector(".router-link4").innerText = "Contact";
   document.querySelector(".text1").innerHTML = "Bonjour, je suis";
   document.querySelector(".text3").innerHTML =
-    "Développeur web passionné avec 5 années d'expérience dans la création de sites web et d'applications performants.";
+    "Passionné par la technologie depuis mon jeune âge, je me tourne vers le développement web après l'acquisition de mon BACC.je conçois vos sites et applications web avec harmonie, simplicité et ergonomie en utilisant mes talents et expérience en UI et UX.";
   document.querySelector(".descri").innerHTML =
     "Mon nom est Rakotondravao Andriniaina, j'ai 25 ans. En étant passionné de technologie et des gadgets électronique depuis petit, j’ai commencé à coder à mes 18 ans. Dans un ordinateur, je suis intéressé par tout que ce soit en hardware ou en software. C'est dans Euro Truck Simulator que ma passion à pris d'avantage de connaître un peu plus sur l'univers des codes et du développement. Avec ce jeu j'ai commencé à m'initier dans la modélisation 3D et les outils graphiques en construisant des mods sur le jeu. Cette expérience m'a amené aujourd'hui au développement d'application. J’ai approfondi mes connaissances à l'<a href=\"https://esti.mg/\" id=\"link\">Ecole supérieur des Technologies de l’information </a> en 2019 et où j'ai passé mon diplôme de Licence.";
   document.querySelector(".boutn a").innerHTML = "Tu veux mon CV ?";
