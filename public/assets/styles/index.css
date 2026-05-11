@@ -148,7 +148,8 @@ body {
 .text .text3 {
   font-size: 25px;
   margin-left: 50px;
-  word-spacing: 13px;
+  /* word-spacing: 13px; */
+  line-height: 40px;
 }
 #home .boutn a {
   font-size: medium;
@@ -670,6 +671,8 @@ i img{
   }
   .text .text3 {
     word-spacing: normal;
+    font-size: 19px;
+    line-height: 30px;
   }
   #home .text {
     font-size: medium;
