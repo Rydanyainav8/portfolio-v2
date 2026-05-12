@@ -1,5 +1,16 @@
 {
   "projects": {
     "default": "portfoliov2-fefb3"
-  }
+  },
+  "targets": {
+    "portfoliov2-fefb3": {
+      "hosting": {
+        "app": [
+          "https://portfoliov2-fefb3.web.app/",
+          "portfoliov2-fefb3"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }
